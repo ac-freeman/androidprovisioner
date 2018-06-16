@@ -1,13 +1,9 @@
-*Manual for setting up and using the program: https://docs.google.com/document/d/1yewSL3pQPfk9bMRWnn3NvePSLfFwT9QXfeQhjKTv04I/edit?usp=sharing
+Created by Andrew Freeman in 2016
 
+Designed to run on Linux
 
-MAJOR ISSUE: https://bugs.launchpad.net/ubuntu/+source/gvfs/+bug/1314556
+Takes advantage of the ADB Linux driver, to run install processes on multiple devices simultaneously. The Android devices do not to be rooted or unlocked, but must have developer settings enabled. This tool can "provision" devices in the sense that a suite of specified applications are installed to each to device. This is useful if many different types of devices are targeted, if the devices cannot be rooted, or if a work profile cannot be established. It was designed to be used by aftermarket resellers to install their own apps on devices, to generate revenue and improve customer experience.
 
-This confirmed bug is two years old, and no progress has been made on solving it. It is not clear at this point how much this bug will affect the use of provisioning tool. I will try to explore other Linux distros that may not have this issue, but this will severely complicate the process of installing ADB on the computers if the distro does not use PPA. 
+Tested with up to 16 devices provisioned at once
 
-
-ACTION ITEMS FOR THE FUTURE:
-
-*   User login and authentication
-
-*   Automatic updating of program
+Sorry I don't have documentation on how to setup/use the tool
